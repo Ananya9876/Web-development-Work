@@ -1,0 +1,164 @@
+
+         div{
+            position: relative;
+            display: inline-block;
+            margin:10px;
+            border: 2px solid rgb(19, 18, 18);
+        }
+        .fixed{
+            position: fixed;
+            right: 0;
+            bottom: 0;
+            border: 2px solid red;
+        }
+        .relative{
+            
+            position: relative;
+            left: 0;
+            bottom: 0;
+            border: 4px solid blanchedalmond;
+        }
+        .images{
+            position: relative;
+            left: 0;
+            bottom: 0;
+            border: 4px solid rgb(235, 19, 19);
+            background-color: rgb(233, 120, 14);
+        }
+        .virat{
+            position: absolute;
+            top: 4%;
+            left: 0%;
+            background-color: rgb(13, 206, 13);
+        }
+        
+        .padikal{
+            position: absolute;
+            top: 8%;
+            left: 0%;
+            background-color: rgb(68, 177, 25);
+        }
+        
+        
+        .rajath{
+            position: absolute;
+            top: 12%;
+            left: 0%;
+            background-color: rgb(160, 14, 153);
+        }
+        
+       
+        .pandya{
+            position: absolute;
+            top: 16%;
+            left: 0%;
+            background-color: rgb(242, 248, 248);
+        }
+        .salt{
+            position: absolute;
+            top: 20%;
+            left: 0%;
+            background-color: rgb(242, 248, 248);
+        }
+        .singh{
+            position: absolute;
+            top: 24%;
+            left: 0%;
+            background-color: rgb(242, 248, 248);
+        }
+        .david{
+            position: absolute;
+            top: 28%;
+            left: 0%;
+            background-color: rgb(242, 248, 248);
+        }
+        .sharma{
+            position: absolute;
+            top: 32%;
+            left: 0%;
+            background-color: rgb(159, 31, 170);
+        }
+        .relative{
+            position: relative;
+        }
+       
+        ul{
+            list-style-type: none;
+            background-color: aquamarine;
+        }
+        ul li{
+            display: inline-block;
+            display: inline-table;
+        }
+        body{
+            margin: 0%;
+        }
+        li{
+
+            color: blue;
+        padding: 20px;
+        }
+        li:hover{
+            background-color:rgb(240, 7, 135);
+        }
+        ol {
+            list-style-type: none;
+            background-color: rgb(10, 14, 236);
+            width: fit-content;
+            margin: 0;
+            padding: 0;
+
+        }
+        ol li {
+            color: rgb(228, 228, 231);
+            padding: 50px 10px;
+            font-size: 20px;
+            font-family: cursive;
+        }
+       .first{
+        opacity:0.5 ;
+       }
+       .one{
+        opacity:0.2;
+        position: relative;
+        left: 0;
+        bottom: 0;
+        border: 4px solid rgb(21, 52, 230);
+       }
+       .two{
+        opacity:0.4 ;
+        position: relative;
+        left: 0;
+        bottom: 0;
+        border: 4px solid rgb(21, 52, 230);
+       }
+       .three{
+        opacity:0.6 ;
+        position: relative;
+        left: 0;
+        bottom: 0;
+        border: 4px solid rgb(21, 52, 230);
+       }
+       .four{
+        opacity:0.8 ;
+        position: relative;
+        left: 0;
+        bottom: 0;
+        border: 4px solid rgb(21, 52, 230);
+       }
+       .dropdown{
+        position: relative;
+
+       }
+       .dropdown-content{
+        position: absolute;
+        display: none;
+        background-color: rgb(133, 133, 216);
+        padding: 20px;
+        color: black;
+       }
+       .dropdown:hover .dropdown-content{
+        display: block;
+       
+       }
+

@@ -1,0 +1,284 @@
+.line{
+    display: inline;
+    position: relative;
+    float: left;
+    top: 5px;
+}
+.lble{
+    
+    position: relative;     
+    float: left;
+    left: 300px;
+    top: 15px;
+    padding-right: 300px;
+    padding-bottom: 14px;
+    border-radius: 17px;
+    align-items: center;
+    display: inline;
+    justify-content: center;
+}
+.magnify{
+    display: inline;
+    position: relative;
+    float: left;
+    left: 273px;
+    top: 21px;
+}
+.mic{
+    display: inline;
+    position: relative;
+    float: left;
+    left: 288px;
+    top: 15px;
+}
+.line1{
+    display: inline;
+    position: relative;
+    float: right;
+    top: 5px;
+}
+.buton{
+    display: inline;
+    position: relative;
+    background-color: white;
+    color: black;
+    border-radius: 8px;
+    float: left;
+    left: 650px;
+    top: 12px;
+}
+.tom{
+    display: block;
+    position: relative;
+    float:inline-start;
+}
+.vid{
+    display: inline;
+    position: relative;
+    float: left;
+    left: 10px;
+}
+.head{
+    display: inline;
+    position: relative;
+    float: left;
+    left: 20px;
+    bottom: 10px;
+}
+.para{
+    display: inline;
+    position: relative;
+    float: left;
+    left: 20px;
+    bottom: 35px;
+}
+.p{
+    display: inline;
+    position: relative;
+    float: right;
+    right: 95px;
+    bottom: 10px;
+}
+.head1{
+    display: inline;
+    position: relative;
+    float: left;
+    left: 20px;
+    top: 35px;
+}
+.para1{
+    display: inline;
+    position: relative;
+    float: right;
+    right: 180px;
+    top: 70px;
+}
+.p1{
+    display: inline;
+    position: relative;
+    float: right;
+    right: 113px;
+    top: 50px;
+}
+.head2{
+    display: inline;
+    position: relative;
+    float: left;
+    left: 20px;
+    top: 100px;
+}
+.para2{
+    display: inline;
+    position: relative;
+    float: right;
+    right: 160px;
+    top: 70px;
+}
+.p2{
+    display: inline;
+    position: relative;
+    float: right;
+    right: 5px;
+    top: 90px;
+}
+.head3{
+    display: inline;
+    position: relative;
+    float: left;
+    left: 20px;
+    top: 140px;
+}
+.para3{
+    display: inline;
+    position: relative;
+    float: right;
+    right: 160px;
+    top: 110px;
+}
+.p3{
+    display: inline;
+    position: relative;
+    float: right;
+    right: 5px;
+    top: 130px;
+}
+.head4{
+    display: inline;
+    position: relative;
+    float: left;
+    left: 20px;
+    top: 180px;
+}
+.para4{
+    display: inline;
+    position: relative;
+    float: right;
+    right: 140px;
+    top: 210px;
+}
+.p4{
+    display: inline;
+    position: relative;
+    float: right;
+    right: 97px;
+    top: 175px;
+}
+.heading{
+    display: inline;
+    position: relative;
+    float: left;
+    bottom: 320px;
+}
+.wb{
+    display: inline;
+    position: relative;
+    float: left;
+    right: 790px;
+    bottom: 260px;
+}
+.wblog{
+    display: inline;
+    position: relative;
+    float: left;
+    right: 785px;
+    bottom: 275px;
+}
+.mid{
+    display: inline;
+    position: relative;
+    float: left;
+    right: 845px;
+    bottom: 250px;
+}
+.but1{
+    border-radius: 8px;
+    background-color: black;
+    color: white;
+    display: inline;
+    position: relative;
+    float: left;
+    right: 800px;
+    bottom: 250px;
+}
+.but2{
+    border-radius: 8px;
+    background-color: white;
+    color: black;
+    display: inline;
+    position: relative;
+    float: left;
+    right: 750px;
+    bottom: 250px;
+}
+.but3{
+    border-radius: 8px;
+    background-color: white;
+    color: black;
+    display: inline;
+    position: relative;
+    float: left;
+    right: 700px;
+    bottom: 250px;
+}
+.but4{
+    border-radius: 8px;
+    background-color: white;
+    color: black;
+    display: inline;
+    position: relative;
+    float: left;
+    right: 650px;
+    bottom: 250px;
+}
+.but5{
+    border-radius: 8px;
+    background-color: white;
+    color: black;
+    display: inline;
+    position: relative;
+    float: left;
+    right: 600px;
+    bottom: 250px;
+}
+.short{
+    display: inline;
+    position: relative;
+    float: right;
+    right: 310px;
+    top: 40px;
+}
+.s1{
+    display: inline;
+    position: relative;
+    float: right;
+    right: 70px;
+    bottom: 370px;
+}
+.s2{
+    display: inline;
+    position: relative;
+    float: right;
+    left: 250px;
+    bottom: 370px;
+}
+.s3{
+    display: inline;
+    position: relative;
+    float: right;
+    left: 65px;
+    bottom: 370px;
+}
+.dt1{
+    display: inline;
+    position: relative;
+    float: right;
+    left: 45px;
+    bottom: 755px;
+}
+.like{
+    display: inline;
+    position: relative;
+    float: right;
+    right: 490px;
+    bottom: 305px;
+}

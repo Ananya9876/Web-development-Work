@@ -1,14 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <script src="from.js"></script>
 </head>
+
 <body>
     <h2>Signup form</h2>
-    <form name="formName" onsubmit="onSubmit()">
+    <!-- <span id="spanid">There is the error in the input</span> -->
+    <span class="spanid">There is the error in the input</span>
+    <button onclick="Click()">Click</button>
+    <br>
+    <button onclick="Clicking()">Clicking</button>
+
+    <form name="formName" onsubmit="return onSubmit()"2>
+       
         <div>
             <label for="nameid">Name</label>
             <span>:</span>
@@ -20,20 +28,20 @@
             <span>:</span>
             <input type="number" id="numid" name="Number" required>
         </div>
-        <br>
+        <!-- <br>
         <div>
             <label for="numid">Email</label>
             <span>:</span>
             <input type="text" id="emailid" name="Email" required>
-        </div>
+        </div> -->
         <br>
         <div>
-            <label for="nameid">Address</label>
+            <label for="nameid">Age</label>
             <span>:</span>
-            <input type="text" id="adressid" name="Address" required>
+            <input type="number" id="ageid" name="Age" required>
         </div>
         <br>
-        <div>
+        <!-- <div>
             <label for="nameid">Password</label>
             <span>:</span>
             <input type="password" id="passid" name="Password" required>
@@ -43,10 +51,13 @@
             <label for="nameid">Confirm Password</label>
             <span>:</span>
             <input type="password" id="confiid" name="Confirmpassword" required>
-        </div>
+        </div> -->
         <br>
-            <button type="submit" value="submit">Click me</button>
-        </div> 
+        <button type="submit" value="submit">Click me</button>
+        <button type="reset" value="clear">Clear</button>
+        </div>
     </form>
+    <script src="from.js"></script>
 </body>
+
 </html>

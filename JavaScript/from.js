@@ -11,7 +11,7 @@ function onSubmit() {
         val = false
         SetError("Nameerrorid","Name is not correctly typed")
     }else{
-        clearField("Nameerrorid");
+        clearField('Nameerrorid');
         
     }
 
@@ -19,20 +19,20 @@ function onSubmit() {
         val = false
         SetError("Numerrorid","Number is not in range");
     } else{
-        clearField("Numerrorid")
+        clearField('Numerrorid')
     }
 
-    if (age < 18) {
-        SetError();
-        val = false
-    }
+    // if (age < 18) {
+    //     SetError();
+    //     val = false
+    // }
     return val
 }
 
 function SetError(id,message){
     console.log(id)
     console.log(message)
-    document.getElementById(id).innerHTML=message
+    document.getElementById(id).innerHTML=message;
 }
 
 // function Click(){

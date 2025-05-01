@@ -8,14 +8,18 @@ function onSubmit() {
 
 
     if (name.length < 5 || name.length > 10) {
-        SetError();
         val = false
+        SetError("Nameerrorid","Name is not correctly typed")
+    }else{
+        clearField("Nameerrorid");
+        
     }
 
     if (num.length !== 10) {
-        SetError();
-
         val = false
+        SetError("Numerrorid","Number is not in range");
+    } else{
+        clearField("Numerrorid")
     }
 
     if (age < 18) {
@@ -25,17 +29,27 @@ function onSubmit() {
     return val
 }
 
-function SetError(){
-    alert("Error in the information")
+function SetError(id,message){
+    console.log(id)
+    console.log(message)
+    document.getElementById(id).innerHTML=message
 }
 
-function Click(){
-    // document.getElementById('spanid').innerHTML='HIiii'
-    let doThis=document.getElementsByClassName('spanid')[0].innerHTML='Heloo'
-    console.log('doThis>>doThis',doThis)
+// function Click(){
+//     // document.getElementById('spanid').innerHTML='HIiii'
+//     let doThis=document.getElementsByClassName('spanid')[0].innerHTML='Heloo'
+//     console.log('doThis>>doThis',doThis)
+// }
+
+// function Clicking(){
+//     let doThis=document.getElementsByTagName('h2')[0].innerHTML='Login form'
+
+// }
+
+function clear(){
+    document.getElementById(Nameerrorid).innerHTML=''
+    document.getElementById(Numerrorid).innerHTML=''
 }
-
-function Clicking(){
-    let doThis=document.getElementsByTagName('h2')[0].innerHTML='Login form'
-
+function clearField(id){
+    document.getElementById(id).innerHTML=''
 }

@@ -16,22 +16,22 @@ function onSubmit() {
     }
 
     if (num.length !== 10) {
-        val = false
+        val = false;
         SetError("Numerrorid","Number is not in range");
     } else{
-        clearField('Numerrorid')
+        clearField('Numerrorid');
     }
 
     // if (age < 18) {
     //     SetError();
     //     val = false
     // }
-    return val
+    return val;
 }
 
 function SetError(id,message){
-    console.log(id)
-    console.log(message)
+    console.log(id);
+    console.log(message);
     document.getElementById(id).innerHTML=message;
 }
 
@@ -47,9 +47,9 @@ function SetError(id,message){
 // }
 
 function clear(){
-    document.getElementById(Nameerrorid).innerHTML=''
-    document.getElementById(Numerrorid).innerHTML=''
+    document.getElementById(Nameerrorid).innerHTML='';
+    document.getElementById(Numerrorid).innerHTML='';
 }
 function clearField(id){
-    document.getElementById(id).innerHTML=''
+    document.getElementById(id).innerHTML='';
 }

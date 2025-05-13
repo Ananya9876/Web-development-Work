@@ -108,11 +108,7 @@
 
 
 
-//Strings
 
-// let name="Ananya Naik";
-
-// console.log(name);
 
 
 

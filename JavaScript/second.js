@@ -72,6 +72,7 @@
 
 
 
+
 let company=["Bloomberg","Microsoft","Uber","Google","IBM","Netflix"];
 
 company.splice(0,1);
